@@ -16,7 +16,7 @@ jobs:
     - name: Set up JDK
       uses: actions/setup-java@v3
       with:
-        java-version: '11'  # Or another version that matches your local environment
+        java-version: '20'  # Or another version that matches your local environment
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
